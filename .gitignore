@@ -31,3 +31,28 @@ thirdparty/
 # Secrets
 .env
 .env.*
+
+# Native Android exclusions
+# Game assets (never commit original commercial game data)
+**/game/
+**/Game/
+**/assets/game/
+**/assets/Game/
+*.ukx
+*.dz
+*.ogg
+*.wad
+*.obb
+*.exe
+*.dll
+# Build output, private/local settings and keys
+.cxx/
+**/local.properties
+*.pem
+*.key
+*.bak
+*.backup
+*.tmp
+**/save/
+**/port.log
+*.iml
