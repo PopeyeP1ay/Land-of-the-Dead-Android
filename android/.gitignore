@@ -1,0 +1,12 @@
+/.gradle/
+/.idea/
+/build/
+/app/build/
+/local.properties
+# Preserve private game data locally only
+/app/src/main/assets/www/index.html
+/app/src/main/assets/www/index.js
+/app/src/main/assets/www/index.wasm
+/app/src/main/assets/www/game.js
+/app/src/main/assets/www/game.data
+/app/src/main/assets/www/vnet.js
