@@ -1,0 +1,33 @@
+# Android build outputs and local configuration
+.gradle/
+.idea/
+**/build/
+**/.cxx/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*.log
+
+# Bundled proprietary game files: never publish
+app/src/main/assets/www/
+**/game.data
+**/game.data.stamp
+*.pak
+*.uax
+*.utx
+*.umx
+*.usx
+
+# Recompiled game and generated web outputs
+build_web/
+gen/
+game/
+.emsdk/
+thirdparty/
+
+# Secrets
+.env
+.env.*
